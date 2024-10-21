@@ -6,8 +6,9 @@ const NextStudio = dynamic(() => import("next-sanity/studio").then((mod) => mod.
   ssr: false,
   loading: () => <CircularSpinner />,
 })
-import config from "@/sanity.config"
 import dynamic from "next/dynamic"
+
+import config from "@/sanity.config"
 
 export default function Studio() {
   return <NextStudio config={config} />

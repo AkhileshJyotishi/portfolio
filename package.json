@@ -14,8 +14,7 @@
     "lint-staged": "lint-staged",
     "format": "prettier --write .",
     "update": "yarn upgrade-interactive --latest",
-    "typecheck": "tsc --noEmit",
-    "prepare": "husky install"
+    "typecheck": "tsc --noEmit"
   },
   "dependencies": {
     "@sanity/code-input": "^4.1.4",
