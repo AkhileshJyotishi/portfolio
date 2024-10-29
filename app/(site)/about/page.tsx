@@ -56,7 +56,8 @@ export default async function About() {
                     <div className="flex flex-col gap-y-4 text-center">
                       <div className="flex items-center gap-x-3">
                         <RefLink
-                          href="https://www.craft.me/s/WQpQF3jrPIodXp"
+                          href="https://drive.google.com/file/d/10vil4jVWQIS58-cLX1W2gu-ZS3A01gCC/view?usp=drive_link"
+                          target="_blank"
                           className="flex basis-[90%] items-center justify-center gap-x-2 rounded-md border border-transparent bg-zinc-100 py-2 text-center font-incognito text-lg font-semibold hover:border-zinc-200 dark:bg-primary-bg dark:hover:border-zinc-700"
                         >
                           View Resume <BiLinkExternal className="text-base" />
